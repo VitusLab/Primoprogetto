@@ -1,0 +1,130 @@
+li{
+    font-size: 18px;
+}
+
+
+
+
+.profile {
+    position: relative;
+    height: 75vw;
+    width: 75vw;
+    border-radius: 5vw;
+    margin-top: 5vw;
+    max-height: 40rem;
+    max-width: 40rem;
+  }
+  .profile .profile-img {
+    height: 80vw;
+    max-height: 45rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.726);
+    transform: translateX(-50%);
+  }
+
+
+  .blog-home5 .card-title {
+    font-size: 18px;
+  }
+  
+  .blog-home5 .subtitle {
+      
+      line-height: 24px;
+  }
+  
+  .blog-home5 .card.card-shadow {
+      -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+      box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  }
+  
+  .blog-home5 .b-h-box .card-img-overlay {
+    bottom: 0px;
+    top: auto;
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    height: 55%;
+  }
+  
+  .blog-home5 .b-h-box .card-title {
+      color: #ffffff;
+  }
+  
+  .blog-home5 .b-h-box {
+    color: #ffffff;
+  }
+  
+  .blog-home5 .b-h-box .card-text {
+    display: none;
+  }
+  
+  .blog-home5 .b-h-box:hover {
+    color: #8d97ad;
+  }
+  
+  
+  .blog-home5 .b-h-box:hover .card-title {
+    margin: 15px 0;
+  }
+  
+  .blog-home5 .b-h-box:hover .card-text {
+    display: block;
+  }
+  
+  .blog-home5 .bg-danger-gradiant {
+      background: #ff4d7e;
+      background: -webkit-linear-gradient(legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
+      background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+      background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+      background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+  }
+  
+  .blog-home5 .font-14 {
+    font-size: 14px;
+  }
+/* CHATGPT STYLE */
+  .sponsor-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sponsor-logo {
+    max-width: 150px;
+    margin: 0 auto 15px;
+    transition: transform 0.3s;
+}
+.sponsor-logo:hover {
+    transform: scale(1.1);
+}
+
+.services-section {
+  padding: 60px 0;
+}
+.services-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.service-box {
+  padding: 20px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s;
+}
+.service-box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+  
+  @media (max-width:768px) {
+    .blog-home5 .b-h-box .card-img-overlay {
+      height: 40%;
+    }
+  }
