@@ -85,7 +85,7 @@ li{
   .blog-home5 .font-14 {
     font-size: 14px;
   }
-/* CHATGPT STYLE */
+  
   .sponsor-section {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -121,6 +121,46 @@ li{
   font-size: 40px;
   margin-bottom: 20px;
   color: #007bff;
+}
+
+/* Footer */
+
+/* Stile per il footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 0.875rem;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer .bi {
+  font-size: 1.5rem;
 }
   
   @media (max-width:768px) {
